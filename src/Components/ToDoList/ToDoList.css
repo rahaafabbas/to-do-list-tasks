@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dl{
+
+    border: 20px solid gray;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-top:10px ;
+    margin-left: 40%;
+  
+    align-items: center;
+    padding:25px 15px;
+}
+.todo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.todo ul li{
+    
+    width: 170px;
+    overflow-wrap: break-word;
+    list-style-type: "✅";
+    cursor: pointer;
+    li {
+        padding: 10px;
+        display: flex;
+    }
+}
+.done{
+    text-decoration: line-through;
+}
