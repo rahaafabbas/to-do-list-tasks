@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import ToDoList from './Components/ToDoList/ToDoList.jsx'
+import { TodoWrapper } from './Components/TodoWrapper';
 function App() {
   return (
-  
-     <ToDoList />
-   
+    <div>
+     <TodoWrapper />
+     </div>
   );
 }
 
